@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetnepal.Blog", "dotnetnepal.Blog\dotnetnepal.Blog.csproj", "{F62AE055-9781-4C4D-8D05-0B8239238BEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetnepal.Blog.Web", "dotnetnepal.Blog\dotnetnepal.Blog.Web.csproj", "{F62AE055-9781-4C4D-8D05-0B8239238BEC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetnepal.Core", "dotnetnepal.Core\dotnetnepal.Core.csproj", "{9FCD8E35-46A4-4409-9587-3C73D482E7EB}"
 EndProject

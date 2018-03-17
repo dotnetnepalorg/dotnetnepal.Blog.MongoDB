@@ -1,6 +1,6 @@
 using System;
 
-namespace dotnetnepal.Blog.Models
+namespace dotnetnepal.Blog.Web.Models
 {
     public class ErrorViewModel
     {

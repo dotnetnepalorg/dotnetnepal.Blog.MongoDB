@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "dotnetnepal.Blog": {
+    "dotnetnepal.Blog.Web": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

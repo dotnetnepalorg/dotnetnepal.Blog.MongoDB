@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace dotnetnepal.Blog
+namespace dotnetnepal.Blog.Web
 {
     public class Program
     {
