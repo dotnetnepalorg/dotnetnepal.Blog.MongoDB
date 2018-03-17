@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\dotnetnepal.Core\dotnetnepal.Core.csproj" />
+    <ProjectReference Include="..\dotnetnepal.Infrastructure\dotnetnepal.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

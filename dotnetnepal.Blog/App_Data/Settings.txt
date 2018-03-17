@@ -1,0 +1,2 @@
+﻿DataProvider: mongodb
+DataConnectionString: mongodb://admin:admin@ds245518.mlab.com:45518/grandnode
