@@ -1,4 +1,7 @@
-﻿using dotnetnepal.Core.Data;
+﻿using dotnetnepal.Core;
+using dotnetnepal.Core.Data;
+using MongoDB.Driver;
+using MongoDB.Driver.Linq;
 using System.Collections.Generic;
 using System.Linq;
 

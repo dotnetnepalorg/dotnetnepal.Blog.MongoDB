@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace dotnetnepal.Infrastructure
+﻿namespace dotnetnepal.Infrastructure
 {
     /// <summary>
     /// Interface which should be implemented by tasks run on startup

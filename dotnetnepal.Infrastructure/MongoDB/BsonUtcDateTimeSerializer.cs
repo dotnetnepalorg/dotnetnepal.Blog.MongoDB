@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MongoDB.Bson.Serialization;
+using MongoDB.Bson.Serialization.Serializers;
+using System;
 
 namespace dotnetnepal.Infrastructure.MongoDB
 {

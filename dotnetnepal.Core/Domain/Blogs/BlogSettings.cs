@@ -2,9 +2,7 @@
 {
     public class BlogSettings : ISettings
     {
-        /// <summary>
-        /// Gets or sets a value indicating whether blog is enabled
-        /// </summary>
+    
         public bool Enabled { get; set; }
 
         /// <summary>

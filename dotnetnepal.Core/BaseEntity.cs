@@ -11,8 +11,7 @@ namespace dotnetnepal.Core
         public BaseEntity()
         {
         }
-
-
+        
         public override bool Equals(object obj)
         {
             return Equals(obj as BaseEntity);

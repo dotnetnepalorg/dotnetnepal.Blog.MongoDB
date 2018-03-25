@@ -1,4 +1,6 @@
-﻿using System;
+﻿using dotnetnepal.Core.Data;
+using dotnetnepal.Core.Domain.Blogs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +17,6 @@ namespace dotnetnepal.Services.Blogs
 
         private readonly IRepository<BlogPost> _blogPostRepository;
         private readonly IRepository<BlogComment> _blogCommentRepository;
-        private readonly CatalogSettings _catalogSettings;
         private readonly IEventPublisher _eventPublisher;
 
         #endregion

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using dotnetnepal.Core;
+using dotnetnepal.Core.Domain.Blogs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

@@ -1,4 +1,6 @@
-﻿namespace dotnetnepal.Core
+﻿using MongoDB.Bson;
+
+namespace dotnetnepal.Core
 {
     public abstract class ParentEntity
     {
