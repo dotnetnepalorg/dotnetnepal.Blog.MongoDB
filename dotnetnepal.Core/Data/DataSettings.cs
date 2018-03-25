@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace dotnetnepal.Core.Data
 {
-    public partial class DataSettings
+    public class DataSettings
     {
      
         public DataSettings()

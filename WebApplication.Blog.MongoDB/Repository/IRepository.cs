@@ -1,12 +1,10 @@
 ﻿using MongoDB.Driver;
 using MongoDB.Driver.Linq;
 using System.Collections.Generic;
+using WebApplication.Blog.MongoDB.Models;
 
-namespace dotnetnepal.Core.Data
+namespace WebApplication.Blog.MongoDB.Repository
 {
-    /// <summary>
-    /// Repository
-    /// </summary>
     public partial interface IRepository<T> where T : BaseEntity
     {
 
@@ -69,9 +67,6 @@ namespace dotnetnepal.Core.Data
         /// <returns></returns>
         IList<T> FindByFilterDefinition(FilterDefinition<T> query);
     }
-
-
-
 
 
 }

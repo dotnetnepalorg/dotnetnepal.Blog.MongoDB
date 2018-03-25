@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetnepal.Blog.Web", "dotnetnepal.Blog\dotnetnepal.Blog.Web.csproj", "{F62AE055-9781-4C4D-8D05-0B8239238BEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnetnepal.Blog.Web", "dotnetnepal.Blog\dotnetnepal.Blog.Web.csproj", "{F62AE055-9781-4C4D-8D05-0B8239238BEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetnepal.Core", "dotnetnepal.Core\dotnetnepal.Core.csproj", "{9FCD8E35-46A4-4409-9587-3C73D482E7EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnetnepal.Core", "dotnetnepal.Core\dotnetnepal.Core.csproj", "{9FCD8E35-46A4-4409-9587-3C73D482E7EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetnepal.Data", "dotnetnepal.Data\dotnetnepal.Data.csproj", "{A0F63E60-0132-45B4-A394-119A45BBA822}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnetnepal.Data", "dotnetnepal.Data\dotnetnepal.Data.csproj", "{A0F63E60-0132-45B4-A394-119A45BBA822}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetnepal.Services", "dotnetnepal.Services\dotnetnepal.Services.csproj", "{8FD02178-9B88-441C-AD36-D1F39BC284C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnetnepal.Services", "dotnetnepal.Services\dotnetnepal.Services.csproj", "{8FD02178-9B88-441C-AD36-D1F39BC284C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetnepal.Infrastructure", "dotnetnepal.Infrastructure\dotnetnepal.Infrastructure.csproj", "{205CFECF-1596-457A-8B6C-5D647BD87F34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnetnepal.Infrastructure", "dotnetnepal.Infrastructure\dotnetnepal.Infrastructure.csproj", "{205CFECF-1596-457A-8B6C-5D647BD87F34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication.Blog.MongoDB", "WebApplication.Blog.MongoDB\WebApplication.Blog.MongoDB.csproj", "{FD66D742-1471-447C-8D4C-D6FA7EF8CA2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,25 +22,24 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F62AE055-9781-4C4D-8D05-0B8239238BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F62AE055-9781-4C4D-8D05-0B8239238BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F62AE055-9781-4C4D-8D05-0B8239238BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F62AE055-9781-4C4D-8D05-0B8239238BEC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9FCD8E35-46A4-4409-9587-3C73D482E7EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9FCD8E35-46A4-4409-9587-3C73D482E7EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FCD8E35-46A4-4409-9587-3C73D482E7EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FCD8E35-46A4-4409-9587-3C73D482E7EB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A0F63E60-0132-45B4-A394-119A45BBA822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A0F63E60-0132-45B4-A394-119A45BBA822}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0F63E60-0132-45B4-A394-119A45BBA822}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0F63E60-0132-45B4-A394-119A45BBA822}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8FD02178-9B88-441C-AD36-D1F39BC284C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8FD02178-9B88-441C-AD36-D1F39BC284C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FD02178-9B88-441C-AD36-D1F39BC284C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FD02178-9B88-441C-AD36-D1F39BC284C1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{205CFECF-1596-457A-8B6C-5D647BD87F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{205CFECF-1596-457A-8B6C-5D647BD87F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{205CFECF-1596-457A-8B6C-5D647BD87F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{205CFECF-1596-457A-8B6C-5D647BD87F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD66D742-1471-447C-8D4C-D6FA7EF8CA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD66D742-1471-447C-8D4C-D6FA7EF8CA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD66D742-1471-447C-8D4C-D6FA7EF8CA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD66D742-1471-447C-8D4C-D6FA7EF8CA2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
